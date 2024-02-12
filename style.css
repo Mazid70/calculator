@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: black;
+}
+.all-things {
+  margin-top: 200px;
+  border-radius: 5px;
+  background-color: #2e2e30;
+  padding: 15px;
+  border: 1px groove;
+}
+.screen {
+  height: 120px;
+  width: 300px;
+}
+.button-conatiner {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+button {
+  cursor: pointer;
+  padding: 15px;
+  background: #58595b;
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+  border: none;
+}
+#zero {
+  grid-column: span 2;
+}
+#equal {
+  grid-row: span 2;
+  background: darkorange;
+}
+.black-btn {
+  background: black;
+}
+input {
+  height: 100%;
+  width: 92%;
+  background: #a2af77;
+  color: white;
+  font-size: x-large;
+  font-weight: 700;
+  padding: 0 10px 0 10px;
+}
