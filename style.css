@@ -2,6 +2,7 @@ body {
   display: flex;
   justify-content: center;
   background: black;
+  align-items: center;
 }
 .all-things {
   margin-top: 200px;
@@ -11,7 +12,7 @@ body {
   border: 1px groove;
 }
 .screen {
-  height: 120px;
+  height: 100px;
   width: 300px;
 }
 .button-conatiner {
@@ -27,8 +28,11 @@ button {
   color: white;
   font-size: larger;
   font-weight: 600;
-  border: none;
+  box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
+    inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75),
+    10px 20px 25px rgba(0, 0, 0, 0.4);
 }
+
 #zero {
   grid-column: span 2;
 }
